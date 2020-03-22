@@ -1,0 +1,53 @@
+#### general settings
+name: Track1
+use_tb_logger: true
+model: SR
+scale: 4
+gpu_ids: [0]
+#distributed
+gpus: 1
+nodes: 1
+local_rank: 0
+master_ip: '127.0.0.1'
+master_port: '4321'
+
+
+
+full_sr: true
+
+#### datasets
+datasets:
+  val:
+    name: PA
+    mode: SP
+    SR: ture
+    batch_size: 1
+    dataroot_HQ: ../../dataset/Track1
+    dataroot_LQ: ../../dataset/Track1
+
+
+#### network structures
+
+network_SR:
+  which_model_G: RRDBNet
+  in_nc : 3
+  out_nc: 3
+  nb: 9
+  nf: 64
+
+
+
+
+
+
+
+#### path
+path:
+  pretrain_model_G_SR: ../../experiments/Track1/model/Track1_Guided_RRDB_x4.pth
+  pretrain_model_G_BA:
+  strict_load: True
+  resume_state:
+
+
+
+
