@@ -25,10 +25,15 @@ sh run_scripts_test_Track2.sh
 ## If you find the code useful, please cite our paper:
 
 @inproceedings{Zhou2020GuideFS,
+
         title={Guided Frequency Separation Network for Real-World Super-Resolution},
+        
         author={Yuanbo Zhou and Wei Deng and Tong Tong and  others},
+        
         booktitle={CVPR Workshops},
+        
         year={2020},
+        
 }
 
 ## reference
