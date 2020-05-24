@@ -21,7 +21,7 @@ sh run_scripts_test_Track1.sh
 sh run_scripts_test_Track2.sh
 
 
-If you find the code useful, please cite our paper:
+## If you find the code useful, please cite our paper:
 
 @inproceedings{Zhou2020GuideFS,
         title={Guided Frequency Separation Network for Real-World Super-Resolution},
@@ -30,7 +30,7 @@ If you find the code useful, please cite our paper:
         year={2020},
 }
 
-##reference
-##Acknowledgment
+## reference
+## Acknowledgment
 https://github.com/open-mmlab/mmsr
 
